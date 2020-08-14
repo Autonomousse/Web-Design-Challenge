@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title>Latitude vs Weather</title>
+  <title>Latitude vs Weather: Cloudiness</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -60,23 +60,24 @@
         <div class="row">
           <!-- col-lg-12 col-sm-12 sets responsiveness for the header, always takes up entire row -->
           <div class="col-lg-12">
-            <header>Summary: Latitude vs Weather</header>
+            <header>Latitude vs Cloudiness</header>
             <hr>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12 col-sm-12">
-            <img class="img-fluid img-float" src="../Resources/assets/cloudiness.png">
-            <p class="text text-justify">The purpose of this project was to analyze how different characteristics of weather change
-              as we approach
-              the equator. To investigate, we first pulled data from OpenWeatherMap API and created a dataset consisting
-              of over 500
-              cities scattered across the world. Next, we utilized Python and the Matplotlib module to inspect the data
-              and create visual
-              representations of cloudiness, humidity, max temperature, and wind speed against latitude. This site
-              includes those
-              visualizations accompanied by insights into potential trends and a sample dataset.</p>
+          <div class="col-lg-12 col-sm-12 img-container">
+            <img class="img-fluid img-scale" src="../Resources/assets/cloudiness.png">
+            </div>
+            <div class="row">
+            <div class="col-lg-12 col-sm-12">
+            <p class="text text-justify">Cloud coverage seems to be fairly unpredictable. It can be noted that there is
+                a larger range of cloud coverage in the Northern Hemisphere as the plot has values from the equator all
+                the way up to 80 degrees latitude.
+                But there are also an abundant amount of cities in the Northern Hemisphere that also have no cloud
+                coverage in the 30-50 degree latitude range. This could be due to the warmer weather that is typical
+                around this time of the year.</p>
           </div>
+        </div>
         </div>
       </div>
 
@@ -95,7 +96,7 @@
             takes up half the row within the container on large screen, entire row on small screen -->
           <div class="col-lg-6 col-md-3">
             <!-- img-fluid class added to make images more responsive and not overlap when screen changes size -->
-            <a href="cloudiness.html"> <img class="img-fluid img-right" src="../Resources/assets/cloudiness.png"></a>
+            <a href="cloudiness.html"> <img class="img-fluid img-right img-thumbnail" src="../Resources/assets/cloudiness.png"></a>
           </div>
           <div class="col-lg-6 col-md-3">
             <a href="humidity.html"> <img class="img-fluid img-right" src="../Resources/assets/humidity.png"></a>

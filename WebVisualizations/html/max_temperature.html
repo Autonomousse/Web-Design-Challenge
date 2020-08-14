@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Latitude vs Weather: Max Temperature</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar: Name of the site on the left, tabs with dropdown menu for images, as well as Comparison and Data tabs on the right-->
+    <!-- Create a navbar, set horizontal menu expansion to appear at large size screens, and use dark theme with a dark background -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <!-- Clicking on the Page Name will bring the user back to the landing page -->
+        <a class="navbar-brand" href="index.html">Latitude vs Weather</a>
+
+        <!-- Responsive menu becomes a menu button when screen size shrinks -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Add class flex-row-reverse to move the nav bar menu items to the right side -->
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <!-- Creates Dropdown Menu with menu items -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="max_temperature.html">Temperature</a>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Create a parent container that is fluid to add in two rows which will also have container properties -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7 col-sm-12 container">
+                <div class="row">
+                    <!-- col-lg-12 col-sm-12 sets responsiveness for the header, always takes up entire row -->
+                    <div class="col-lg-12">
+                        <header>Latitude vs Max Temperature</header>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 img-container">
+                        <img class="img-fluid img-scale" src="../Resources/assets/max_temperature.png">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12">
+                            <p class="text text-justify">As we move towards the equator from either the North or the
+                                South, the max temperature increases. We can articulate that the absolute max
+                                temperatures during this time of year are in the Northern Hemisphere due to it being
+                                summer in the North
+                                and due to the tilt of the Earth. The Northern Hemisphere is closer to the sun during
+                                these months so we can conclude that this sample data is a fair representation of the
+                                population data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Create the Visualizations container with images-->
+            <div class="col-lg-4 col-sm-12 container container-fit">
+                <div class="row">
+                    <!-- col-lg-12 col-sm-12 sets responsiveness for the header, always takes up entire row -->
+                    <div class="col-lg-12 col-sm-12">
+                        <header class="header-small">Visualizations</header>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- col-lg-6 col-sm-12 sets responsiveness for the images, 
+            takes up half the row within the container on large screen, entire row on small screen -->
+                    <div class="col-lg-6 col-md-3">
+                        <!-- img-fluid class added to make images more responsive and not overlap when screen changes size -->
+                        <a href="cloudiness.html"> <img class="img-fluid img-right"
+                                src="../Resources/assets/cloudiness.png"></a>
+                    </div>
+                    <div class="col-lg-6 col-md-3">
+                        <a href="humidity.html"> <img class="img-fluid img-right"
+                                src="../Resources/assets/humidity.png"></a>
+                    </div>
+                    <div class="col-lg-6 col-md-3">
+                        <a href="max_temperature.html"> <img class="img-fluid img-right img-thumbnail"
+                                src="../Resources/assets/max_temperature.png"></a>
+                    </div>
+                    <div class="col-lg-6 col-md-3">
+                        <a href="wind_speed.html"> <img class="img-fluid img-right"
+                                src="../Resources/assets/wind_speed.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
