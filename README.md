@@ -1,6 +1,6 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
-## Live Github Page(https://autonomousse.github.io/Web-Design-Challenge/)
+## Live Github Page (https://autonomousse.github.io/Web-Design-Challenge/)
 
 ## Background
 
