@@ -1,5 +1,7 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
+## Live Github Page of final product: https://autonomousse.github.io/Web-Design-Challenge/(https://autonomousse.github.io/Web-Design-Challenge/)
+
 ## Background
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
@@ -55,3 +57,4 @@ Finally, the website must be deployed to GitHub pages.
 * Add extra visualizations! The more comparisons the better, right?
 * Use meaningful glyphicons next to links in the header.
 * Have visualization navigation on every visualizations page with an active state. See the screenshots below.
+
