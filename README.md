@@ -1,6 +1,6 @@
 # Web Design Challenge - Web Visualization Dashboard (Latitude)
 
-## Live Github Page (https://autonomousse.github.io/Web-Design-Challenge/)
+## Live Github Page (https://autonomousse.github.io/Web-Visualization-Dashboard/)
 
 ## Background
 
