@@ -8,7 +8,7 @@ Data is more powerful when we share it with others! Let's take what we've learne
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
-For this challenge we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](WebVisualizations/Resources/city_data.csv).
+For this challenge we'll be creating a visualization dashboard website using visualizations we've created in a past challenge. Specifically, we'll be plotting [weather data](WebVisualizations/Resources/city_data.csv).
 
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
@@ -56,5 +56,4 @@ Finally, the website must be deployed to GitHub pages.
 * Use a Bootstrap theme to customize your website. You may use a tool like [Bootswatch](https://bootswatch.com/). Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
 * Add extra visualizations! The more comparisons the better, right?
 * Use meaningful glyphicons next to links in the header.
-* Have visualization navigation on every visualizations page with an active state. See the screenshots below.
-
+* Have visualization navigation on every visualizations page with an active state.
